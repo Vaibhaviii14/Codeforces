@@ -31,19 +31,18 @@ int main() {
         // Problem logic here
         ll n;
         cin>>n;
-        vll v(n);
-        for(int i=0;i<n;i++)  cin>> v[i];
+        vll v(n+2);
+        v[0]=0;
+        v[n+1]=0;
+        for(int i=1;i<=n;i++){
+            cin>>v[i];
+        }  
         int count=0;  
-        if(v[0]!=0){
-            count++;
-        }
-        for(int i=1;i<n;i++){
-            
+        for(int i=0;i<n+2;i++){            
             if(v[i-1]==0 && v[i]!=0){
                 count++;
             }
         }
-        if(n==1 && v[0]!=0) count=1;
  
         cout<<min(count,2)<<endl;
         
