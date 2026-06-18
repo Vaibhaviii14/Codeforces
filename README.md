@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 5 |
+| 3 | 6 |
 
 ---
 
@@ -15,6 +15,7 @@
 - [binary search](#binary-search) (1)
 - [dp](#dp) (2)
 - [greedy](#greedy) (2)
+- [math](#math) (1)
 - [sortings](#sortings) (1)
 - [two pointers](#two-pointers) (2)
 
@@ -39,6 +40,12 @@
 |---|---------|------------|----------|
 | 1899C | [Yarik and Array](https://codeforces.com/contest/1899/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Vaibhaviii14/Codeforces/blob/HEAD/1899/C%20-%20Yarik%20and%20Array/solution.cpp) |
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Vaibhaviii14/Codeforces/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1618C | [Paint the Array](https://codeforces.com/contest/1618/problem/C) | 1100 | [C++23 (GCC 14-64, msys2)](https://github.com/Vaibhaviii14/Codeforces/blob/HEAD/1618/C%20-%20Paint%20the%20Array/solution.cpp) |
 
 ### sortings
 
